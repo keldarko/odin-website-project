@@ -1,0 +1,14 @@
+header {
+  background-color: #1f2937;
+  color: #ffffff;
+  font-family: "roboto";
+  padding: 8em;
+}
+
+nav {
+  display: flex;
+}
+
+header menu {
+  flex: 1;
+}
