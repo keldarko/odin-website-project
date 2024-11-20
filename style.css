@@ -6,7 +6,7 @@ header {
   background-color: #1f2937;
   color: #ffffff;
   font-family: "roboto";
-  padding: 2em 10em 10em;
+  padding: 0em 10em 10em;
 }
 
 .header-logo {
@@ -18,6 +18,12 @@ header {
   align-items: center;
   justify-content: center;
   gap: 2px;
+  width: 1200px;
+  margin: auto;
+}
+
+.hero-section-image img {
+  width: 600px;
 }
 
 .hero-section button {
@@ -34,6 +40,7 @@ nav {
   justify-content: center;
   gap: 2px;
   width: 1200px;
+  margin: auto;
 }
 
 menu ul {
@@ -66,6 +73,10 @@ menu ul {
   gap: 3em;
 }
 
+.header-logo img {
+  width: 20%;
+}
+
 .item {
   width: 200px;
   height: 200px;
@@ -76,7 +87,7 @@ menu ul {
 h1 {
   font-size: 48px;
   font-weight: 900;
-  ß
+
 }
 
 h2 {
