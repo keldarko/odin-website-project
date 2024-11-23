@@ -181,6 +181,10 @@ h2 {
   font-weight: 900;
 }
 
+.item-area h3 {
+  text-align: center;
+}
+
 footer {
   background-color: #1f2937;
   padding: 3em;
