@@ -2,6 +2,10 @@
   font-family: "Roboto";
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: auto;
 }
@@ -121,6 +125,34 @@ menu ul a:hover {
   border-radius: 20px;
 }
 
+.box-one {
+  /* background-color: red; */
+  background-image: url(img/icon-1.png);
+  background-size: contain;
+  border: none;
+}
+
+.box-two {
+  /* background-color: red; */
+  background-image: url(img/icon-2.png);
+  background-size: contain;
+  border: none;
+}
+
+.box-three {
+  /* background-color: red; */
+  background-image: url(img/icon-4.png);
+  background-size: contain;
+  border: none;
+}
+
+.box-four {
+  /* background-color: red; */
+  background-image: url(img/icon-3.png);
+  background-size: contain;
+  border: none;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 900;
@@ -143,7 +175,7 @@ footer {
 .quote-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   padding: 2em 25em;
 }
@@ -201,3 +233,5 @@ footer {
   width: 200px;
   text-align: center;
 }
+
+@media screen {}
