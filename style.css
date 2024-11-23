@@ -13,7 +13,6 @@ body {
 header {
   background-color: #1f2937;
   color: #ffffff;
-  font-family: "roboto";
   padding: 0em 10em 10em;
 }
 
@@ -34,10 +33,18 @@ header {
   padding: 0em 5em 0em 1em;
 }
 
+.water-brush-regular {
+  font-family: "Water Brush", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .hero-section-image img {
   width: 600px;
   border-radius: 10%;
-  border: 3px groove #3882f6;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
 }
 
 .hero-section button {
@@ -99,8 +106,15 @@ menu ul a:hover {
 .quote-section {
   background-color: #e5e7eb;
   padding: 3em;
+
 }
 
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+}
 
 
 .container {
@@ -115,7 +129,7 @@ menu ul a:hover {
 }
 
 .header-logo img {
-  width: 20%;
+  width: 10%;
 }
 
 .item {
@@ -180,12 +194,12 @@ footer {
   padding: 2em 25em;
 }
 
-.quote-section h3 {
+/* .quote-section h3 {
   font-size: 36px;
-  font-family: "Roboto";
+  font-family: "Water Brush";
   font-style: italic;
   font-weight: lighter;
-}
+} */
 
 .quote-section h4 {
   text-align: right;
