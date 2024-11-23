@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto";
+  font-family: "Quicksand";
 }
 
 * {
@@ -55,7 +55,7 @@ header {
 }
 
 .hero-section button:hover {
-  background-color: #a6c0ea;
+  background-color: #fff;
 
 }
 
