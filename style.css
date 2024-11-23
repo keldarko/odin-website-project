@@ -166,7 +166,7 @@ footer {
 
 .call-to-action-section-title-copy {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
   justify-content: center;
   gap: 9px;
@@ -178,6 +178,11 @@ footer {
   margin: auto;
 }
 
+
+.call-to-action-section-title-copy-area {
+  padding: 0em 4em;
+}
+
 .call-to-action-section p {
   display: block;
 
@@ -186,10 +191,10 @@ footer {
 .call-to-action-section button {
   background-color: transparent;
   border: 2px solid #ffffff;
-  border-radius: 20px;
+  border-radius: 10px;
   color: #ffffff;
-  padding: 2em;
-
+  padding: .5em 3em;
+  font-size: 1.2em;
 }
 
 .item-area p {
