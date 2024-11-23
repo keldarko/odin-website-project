@@ -53,7 +53,9 @@ header {
   color: #1c0202;
   padding: 0.5em 2em;
   font-size: 20px;
+  font-weight: 700;
   border: none;
+  margin-top: 1em;
 }
 
 .hero-section button a {
@@ -220,13 +222,22 @@ footer {
   background-color: #3882f6;
   border-radius: 20px;
   color: #ffffff;
-  width: 800px;
+  width: 1200px;
   margin: auto;
 }
 
 
 .call-to-action-section-title-copy-area {
-  padding: 0em 4em;
+  padding: 0em 8em;
+}
+
+.call-to-action-section-title-copy-area h3 {
+  font-size: 2em;
+  margin: auto;
+}
+
+.call-to-action-section-title-copy-area p {
+  font-size: 20px;
 }
 
 .call-to-action-section p {
@@ -240,7 +251,8 @@ footer {
   border-radius: 10px;
   color: #ffffff;
   padding: .5em 3em;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-weight: 700;
 }
 
 .item-area p {
