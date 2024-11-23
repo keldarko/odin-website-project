@@ -137,37 +137,46 @@ menu ul a:hover {
 .item {
   width: 200px;
   height: 200px;
-  border: 4px solid #3882f6;
+  /* border: 4px solid #3882f6; */
   border-radius: 20px;
 }
 
 .box-one {
   /* background-color: red; */
-  background-image: url(img/icon-1.png);
+  /* background-image: url(img/icon-1.png); */
   background-size: contain;
   border: none;
+  max-width: 200px;
+
 }
 
-.box-two {
-  /* background-color: red; */
+.box-one img,
+.box-two img,
+.box-three img,
+.box-four img {
+  width: 200px;
+}
+
+/* .box-two {
+  
   background-image: url(img/icon-2.png);
   background-size: contain;
   border: none;
 }
 
 .box-three {
-  /* background-color: red; */
+ 
   background-image: url(img/icon-4.png);
   background-size: contain;
   border: none;
 }
 
 .box-four {
-  /* background-color: red; */
+ 
   background-image: url(img/icon-3.png);
   background-size: contain;
   border: none;
-}
+} */
 
 h1 {
   font-size: 48px;
